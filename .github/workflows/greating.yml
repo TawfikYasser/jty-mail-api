@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: TawfikYasser/gh-actions-ty/src/welcome@v0.3 
+      - uses: TawfikYasser/gh-actions-ty/src/welcome@main 
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: 'Issue-Header'
