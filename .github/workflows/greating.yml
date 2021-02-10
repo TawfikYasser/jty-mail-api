@@ -19,6 +19,6 @@ jobs:
       - uses: TawfikYasser/gh-actions-ty/src/welcome@main 
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: 'Issue-Header'
-          pr-message: 'PR-Header'
-          footer: 'Footer'
+          issue-message: '<h1>Issue-Header</h1>'
+          pr-message: '<h1>PR-Header</h1>'
+          footer: '**Footer**'
